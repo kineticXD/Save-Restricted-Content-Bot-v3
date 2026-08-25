@@ -20,7 +20,7 @@ async def start_client():
             await userbot.start()
             print("Userbot started...")
         except Exception as e:
-            print(f"Hey honey!! check your premium string session, it may be invalid of expire {e}")
+    print(f"Premium userbot disabled: {e}")
             
     await app.start()
     print("Pyro App Started...")
